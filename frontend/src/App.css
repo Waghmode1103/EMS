@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading{
+  color: white;
+  background:linear-gradient(90deg, rgb(10, 227, 235), rgb(114, 228, 142));
+
+}
+ .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 30px;
+} 
+.navbar-nav .nav-item .nav-link:hover {
+  font-style: italic;
+  background:linear-gradient(90deg, rgb(118, 214, 182), rgb(175, 59, 221));
+  color: rgb(114, 228, 142);
+}
+.admindashboard {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .admindashboard {
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.heading{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background:linear-gradient(90deg, rgb(49, 212, 150), rgb(197, 121, 166));
+
+}
+  .addminnavbar .nav-item .nav-link {
+  color: white;
+  font-size: 20px;
+    
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  /* background:linear-gradient(360deg, rgb(6, 146, 99), rgb(175, 59, 221)); */
+list-style: circle;
+list-style-position: inside-center;
+}
+.addminnavbar .nav-item .nav-link:hover {
+  font-style: italic;
+  color: rgb(114, 228, 142);
+}
+
+.employeedashboard {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:"img-fluid: true";
+}
+.carousel-img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 45vh;
+  }
+}
